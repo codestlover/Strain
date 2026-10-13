@@ -1,0 +1,13 @@
+name: strain
+version: 0.1.0
+
+authors:
+  - scpsl-bot contributors
+
+crystal: ">= 1.10.0"
+license: MIT
+repository: https://github.com/codestlover/Strain
+
+targets:
+  strain:
+    main: src/strain.cr

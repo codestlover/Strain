@@ -1,0 +1,35 @@
+# Crystal dependencies, caches, and build artifacts
+/bin/
+/lib/
+/.crystal/
+/.shards/
+/dist/
+/build/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.dwarf
+
+# Local credentials, proxy lists, and environment files
+.env
+.env.*
+*.pem
+*.key
+/proxies*
+/socks5*
+
+# Local diagnostics and editor/OS files
+*.log
+*.pcap
+*.pcapng
+core
+core.*
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
