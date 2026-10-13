@@ -12,9 +12,9 @@ Strain is written in Crystal and examines connection-request handling, signature
 
 ## Scope and version compatibility
 
-The PoC was originally developed against an older SCP:SL server version. According to the author, the underlying findings remain relevant to newer versions as well.
+Strain was originally developed against a legacy SCP:SL server version. The underlying findings remain relevant to newer versions as well.
 
-This repository does **not** provide an independently verified list of affected releases. No exact original server build or newer-version test matrix was supplied with the source. Protocol layouts, server configuration, transport changes, and mitigations can change both behavior and results; relevance to newer versions is not a guarantee that every release is affected.
+Version-specific behavior depends on protocol layouts, server configuration, transport changes, and deployed mitigations. This repository does not maintain a release-by-release compatibility matrix; relevance to newer versions does not imply that every release is affected.
 
 The published packet fixture is anonymized: the captured account identifier and signature bytes have been replaced with placeholders. Its protocol layout and the original research comments must be checked against the server build being studied. Successful compilation alone does not establish server compatibility.
 
@@ -107,6 +107,10 @@ This project is published solely for educational purposes, security research, an
 
 Strain is an independent project and is not affiliated with or endorsed by Northwood Studios, SCP: Secret Laboratory, or Valve.
 
+## Author
+
+Created and maintained by [codestlover](https://github.com/codestlover).
+
 ## License
 
-Released under the [MIT License](LICENSE), consistent with the license declared in the original project manifest.
+Released under the [MIT License](LICENSE).

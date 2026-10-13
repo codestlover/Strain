@@ -2,7 +2,7 @@ name: strain
 version: 0.1.0
 
 authors:
-  - scpsl-bot contributors
+  - codestlover
 
 crystal: ">= 1.10.0"
 license: MIT
